@@ -1,0 +1,28 @@
+{
+  "name": "translate-to-spanish",
+  "version": "1.0.0",
+  "description": "Translate your language from english or any other langugage to spanish",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samakintayo/Translate-to-Spanish.git"
+  },
+  "author": "SamAkintayo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samakintayo/Translate-to-Spanish/issues"
+  },
+  "homepage": "https://github.com/samakintayo/Translate-to-Spanish#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "livereload": "^0.9.3",
+    "reload": "^3.2.1"
+  }
+}

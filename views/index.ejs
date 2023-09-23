@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Translate-To-Spanish</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titan+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+</head>
+
+<body>
+
+    <div id="main-div">
+
+<h1>English to Spanish Translator</h1>
+
+        <form id="myForm" method="post">
+            <textarea name="text" id="" rows="6" placeholder="enter your text">
+            </textarea>
+            <input type="submit" class="gradientBg fancy-button " value="TRANSLATE" formaction="/translate-word"></i>
+        </form>
+
+
+        <div id="translatedResult" class="result">
+            <h4> <%= content.translation %> </h4>
+        </div>
+
+    </div>
+
+    <script src="/reload/reload.js"></script>
+</body>
+
+</html>

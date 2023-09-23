@@ -1,0 +1,103 @@
+body {
+    margin: auto;
+    background: rgb(0, 23, 51);
+    background: linear-gradient(90deg, rgba(0, 23, 51, 1) 0%, rgba(1, 54, 60, 1) 100%);
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+#main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    padding: 100px 50px;
+    width: 400px;
+
+
+}
+
+
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+}
+
+
+textarea {
+    background-color: white;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Poppins';
+    padding: auto;
+}
+
+
+
+.gradientBg {
+    background: linear-gradient(90deg, rgba(82, 160, 253, 1) 0%, rgba(0, 226, 250, 1) 70%, rgba(0, 226, 250, 1) 100%);
+}
+
+
+/* fancy Button */
+.fancy-button {
+    display: inline-block;
+    padding: 18px 60px;
+    border-radius: 30em;
+    position: relative;
+    z-index: 2;
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+    border: none;
+}
+
+.fancy-button::before {
+    content: '';
+    display: inline-block;
+    height: 40px;
+    position: absolute;
+    bottom: -5px;
+    left: 30px;
+    right: 30px;
+    z-index: -1;
+    border-radius: 30em;
+    filter: blur(20px) brightness(0.95);
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-out;
+}
+
+
+.fancy-button:hover {
+
+    filter: brightness(1.05) contrast(1.05);
+    transform: scale(0.95);
+}
+
+.fancy-button::before {
+    bottom: 0;
+    filter: blur(10px) brightness(0.95);
+}
+
+.result {
+    background-color: bisque;
+    padding: 30px 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h4{
+    font-size: 14px;
+    font-family: 'Poppins';
+}
